@@ -18,7 +18,7 @@ if srt == ("Yes"):
     print ("you notice a small boy asking for help.")
     hlpbrd=input("Should we help him? (Answer \"Yes\" please!) ")
     if hlpbrd==("Yes"):
-        print ("You walk over to Brad and tell him you can offer your assisstance.")
+        print ("You walk over to him and tell him you can offer your assisstance.")
         print ("The small child seemed overjoyed that someone had finally offered.")
         print ("He says is name is Brad, and that you need to save his parents!")
         print ("You gather your braodsword and shuffle out, following the sound")
@@ -39,8 +39,12 @@ if srt == ("Yes"):
                 print ("The Dad scrounges up 500 gold coins from under the floorboards.")
                 print ("He hands them to you.")
                 print ("YOU HAVE GAINED 500 GOLD COINS.")
+                print ("You leave to a tavern.")
+                print ("The End.")
             if rwrd == ("No"):
                 print ("Then I will make Brad your apprentice. I entrust him to you.")
+                print ("You and Brad head off on a journey.")
+                print ("The End.")
                 
         if md == ("Mom"):
             print ("You fight a few guards and head to the female wing.")
@@ -50,7 +54,8 @@ if srt == ("Yes"):
             print ("You pick her up and leave.")
             print ("You return two months later to find Brad starved and his mother")
             print ("malnourishing him to feed herself.")
-            print ("There is nothing you can do. The End.")
+            print ("There is nothing you can do.")
+            print ("The End.")
     else:
         print ("You shift back in your seat, and ignore the nuisance.")
         print ("You see a hooded figure enter the bar.")
@@ -64,6 +69,13 @@ if srt == ("Yes"):
             print ("You realize that the small girl is scared.")
             print ("You decide to usher her into a sideroom.")
             print ("While talking to her, you learn her name is Lucy.")
-            print ("In progress...")
+            print ("You wait until the guards leave and sneak")
+            print ("out the back end of the bar.")
+            print ("You run away and find her home.")
+            print ("You leave and continue adventuring.")
+            print ("The End.")
+        if hlplcy == ("No"):
+            print ("You fight the castle guards. They overwhelm you and ou are killed.")
+            print ("The End.")
 else:
     print("Oh well.")

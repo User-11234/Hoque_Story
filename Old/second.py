@@ -1,4 +1,4 @@
-age = int(input("Hey you sicko, how old are you, huh? "))
+age = int(input("Hey, how old are you, huh? "))
 
 if (age < int(18)):
     print ("Quit being useless and comeback when you're not " + str(age)+ "!")
